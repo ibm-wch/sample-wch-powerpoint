@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>WCH Picker Integration Example</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    
+  <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.debug.js"></script>
+
+    
+	<script type="application/javascript" src="src/index.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    
+    <link rel="stylesheet" href="app.css" />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="wch-picker" style="padding:10px;">
+    <h3>Watson Content Hub Asset Picker</h3> 
+		<button id="mypicker" class="picker-button" onclick="launchPicker(resultHandler);">Launch Picker</button>
+		<button id="mypicker" class="picker-button" onclick="wchOptions();">Options</button>
+
+		<div id="options-form" class="form-container" style="padding:10px;display:none;">
+			<div class="form-group row"></div>
+			<div class="form-group row">
+		        <div class="col-xs-4">
+		            <label for="wch-id" class="col-form-label">WCH API Url</label>
+		        </div>
+		        <div class="col-xs-8">
+		            <input class="form-control" type="text" value="" id="current-wch-id">
+		        </div>
+	    	</div>
+	    	<button id="mypicker" class="picker-button" onclick="saveOptions();">Save</button>
+		
+	  </div>
+      <div id="pickerDialog" style="width:100px;">
+          <iframe tabindex="0" id="pickerIframe"></iframe>
+      </div>
+        
+
+    </div>
+
+</body>
+
+</html>
