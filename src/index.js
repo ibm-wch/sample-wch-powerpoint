@@ -12,10 +12,10 @@
 'use strict';
 
 //// The initialize function must be run each time a new page is loaded
-//Office.initialize = function (reason) {
-//    $(document).ready(function () {
-//    });
-//};
+Office.initialize = function (reason) {
+    $(document).ready(function () {
+    });
+};
 
 /*
  * Get saved wchAPIURL on load
@@ -66,7 +66,7 @@ function launchPicker(myhandler) {
         resizable: true,
         minHeight: 500,
         maxWidth: 150,
-        width: 240,
+        width: 348,
         position: { my: 'right center', at: 'right center', of: window },
         open: function() {        	
         	
