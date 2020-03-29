@@ -1,6 +1,6 @@
-# Watson Content Hub Powerpoint Add-In
+# Acoustic Content Powerpoint Add-In
 
-This sample shows how you can leverage the Watson Content Hub Asset Picker within Microsoft PowerPoint to add images from the Watson Content Hub to a presentation.  The sample has been validated on PowerPoint on Mac and PowerPoint Online. 
+This sample shows how you can leverage the Acoustic Content (formerly Watson Content Hub) Asset Palette within Microsoft PowerPoint to add images from the Watson Content Hub to a presentation.  The sample has been validated on PowerPoint on Mac and PowerPoint Online. 
 
 ### Building / working with the add-in
 See the following for how to build a Microsoft PowerPoint add-in:  https://docs.microsoft.com/en-us/office/dev/add-ins/powerpoint/powerpoint-add-ins-get-started?tabs=visual-studio-code#tabpanel_GtienwYleG_visual-studio-code
