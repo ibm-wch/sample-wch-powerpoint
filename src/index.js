@@ -55,7 +55,7 @@ function launchPicker(myhandler) {
 	var wchID = $('#current-wch-id')[0].value;
 	
 	//images only
-	var url = 'https://www.digitalexperience.ibm.com/content-picker/picker.html?apiUrl='+wchID+ '&fq=classification:asset&fq=assetType:image';
+	var url = 'https://content-us.goacoustic.com/content-picker/picker.html?apiUrl='+wchID+ '&fq=classification:asset&fq=assetType:image';
 
 	$('#pickerDialog').dialog({
         autoOpen: false,
